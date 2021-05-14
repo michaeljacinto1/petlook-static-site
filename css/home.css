@@ -1,0 +1,240 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  padding-top: 80px;
+}
+
+header > .navbar {
+  background-color: #3a6263;
+  border-bottom: 1px white solid;
+}
+
+.nav-item a:hover {
+  background-color: #2c494a;
+}
+
+#banner_home {
+  position: relative;
+}
+
+#bannertxt_home {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 80%;
+  padding: 25px;
+}
+
+#banner_home img {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.banner_btn {
+  font-size: 1.5rem;
+  background-color: transparent;
+  border-radius: 6px;
+  border: 2px solid #2c494a;
+  padding: 3px 15px;
+  color: black;
+}
+
+.banner_btn:hover {
+  background-color: #2c494a;
+  color: white;
+  border: 2px solid white;
+  text-decoration: none;
+}
+
+.jumbotron {
+  background-color: #82dcdd;
+  border-top: #eee;
+  border-bottom: #eee;
+}
+
+.btn {
+  background-color: #68afb0;
+  color: white;
+  border: 1px solid #eee;
+}
+
+.btn:hover {
+  background-color: rgb(0, 22, 70);
+  color: #adfcff;
+}
+
+.copyright {
+  font-weight: bold;
+}
+
+.footer_credits {
+  margin: 0;
+}
+
+.photo_credits {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.photo_credits a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 575px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    padding-top: 60px;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .nav-item a:hover {
+    background-color: #2c494a;
+  }
+
+  #banner_home {
+    height: 250px;
+  }
+
+  #bannertxt_home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #bannertxt_home h2 {
+    font-size: 1.5rem;
+  }
+
+  #banner_home img {
+    width: 100%;
+    height: 250px;
+    opacity: 0.7;
+  }
+
+  .banner_btn {
+    font-size: 0.7rem;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 2px solid #2c494a;
+    padding: 3px 15px;
+  }
+
+  .banner_btn:hover {
+    background-color: #2c494a;
+    color: white;
+    border: 2px solid white;
+  }
+
+  .jumbotron {
+    padding-top: 5px;
+    font-size: 0.8rem;
+  }
+
+  .jumbotron h1 {
+    font-size: 2rem;
+  }
+
+  .jumbotron > .container {
+    padding: 10px;
+  }
+
+  .card {
+    font-size: 0.8rem;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  html {
+    font-size: 16px;
+  }
+
+  #bannertxt_home {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    text-align: center;
+  }
+
+  #bannertxt_home h2 {
+    font-size: 2.5rem;
+  }
+
+  #banner_home img {
+    width: 100%;
+    opacity: 0.7;
+  }
+
+  .banner_btn {
+    font-size: 0.9rem;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 2px solid #2c494a;
+    padding: 3px 15px;
+  }
+
+  .banner_btn:hover {
+    background-color: #2c494a;
+    color: white;
+    border: 2px solid white;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+
+  #bannertxt_home {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  #bannertxt_home h2 {
+    font-size: 3rem;
+  }
+
+  #banner_home img {
+    width: 100%;
+    opacity: 0.7;
+  }
+
+  .banner_btn {
+    font-size: 0.9rem;
+    background-color: transparent;
+    border-radius: 6px;
+    border: 2px solid #2c494a;
+    padding: 3px 15px;
+  }
+
+  .banner_btn:hover {
+    background-color: #2c494a;
+    color: white;
+    border: 2px solid white;
+  }
+}

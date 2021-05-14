@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adopt-Cat</title>
+    <script src="https://kit.fontawesome.com/e27402d971.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/adoptacat.css">
+
+</head>
+<body>
+  <!-- HEADER & NAVIGATION -->
+  <header> 
+    <div class="navbar navbar-expand-lg px-5 py-3 navbar-dark fixed-top">
+      <a href="../index.html" class="navbar-brand text-light ">
+        <img src="../img/logo.png" alt="Logo" class="logo"> PetLook PH
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="collapsibleNavbar">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="../html/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active text-light" href="../html/services.html">Services</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!--PETS SECTION-->
+  <section>
+    <div class="container mt-3 mb-3 d-flex flex-wrap-reverse flex-lg-wrap-reverse flex-xl-wrap">
+      <div class="container d-flex flex-wrap flex-md-wrap flex-lg-wrap justify-content-lg-around justify-content-xl-between col-sm-12 col-md-9 col-lg-12 col-xl-9">
+            <div class="card col-lg-5 col-xl-4 p-0">
+                <a href="#"><img class="card-img-top" src="../img/Kit.jpg" alt="Kit"></a>
+                <div class="card-body">
+                    <h4 class="card-title catname">Kit</h4>
+                    <hr/>
+                    <p class="card-text"><strong>Age:</strong> 4 years</p>
+                    <p class="card-text"><strong>Breed: </strong> unknown </p>
+                </div>
+            </div>
+            <div class="card col-lg-5 col-xl-4 p-0">
+                <a href="#"><img class="card-img-top" src="../img/Kat.jpg" alt="Kat"></a>
+                <div class="card-body">
+                    <h4 class="card-title catname">Kat</h4>
+                    <hr/>
+                    <p class="card-text"><strong>Age: </strong> unknown</p>
+                    <p class="card-text"><strong>Breed: </strong>unknown</p>
+                </div>
+            </div>
+            <div class="card col-lg-5 col-xl-4 p-0">
+                <a href="#"><img class="card-img-top" src="../img/Chesca.jpg" alt="Chesca"></a>
+                <div class="card-body">
+                    <h4 class="card-title catname">Chesca</h4>
+                    <hr/>
+                    <p class="card-text"><strong>Age: </strong> 5 years old  </p>
+                    <p class="card-text"><strong>Breed: </strong>unknown</p>
+                </div>
+            </div>
+            <div class="card col-lg-5 col-xl-4 p-0">
+                <a href="#"><img class="card-img-top" src="../img/pat.jpg" alt="Pat"></a>
+                <div class="card-body">
+                    <h4 class="card-title catname">Pat</h4>
+                    <hr/>
+                    <p class="card-text"><strong>Age: </strong>5 years old</p>
+                    <p class="card-text"><strong>Breed: </strong>unknown </p>
+                </div>
+            </div>
+            <div class="card col-lg-5 col-xl-4 p-0">
+                <a href="#"><img class="card-img-top" src="../img/amy.jpg" alt="Amy"></a>
+                <div class="card-body">
+                    <h4 class="card-title catname">Amy</h4>
+                    <hr/>
+                    <p class="card-text"><strong>Age: </strong> 5 years old  </p>
+                    <p class="card-text"><strong>Breed: </strong>unknown</p>
+                </div>
+            </div>
+            <div class="card col-lg-5 col-xl-4 p-0">
+                <a href="#"><img class="card-img-top" src="../img/jen.jpg" alt="Jen"></a>
+                <div class="card-body">
+                    <h4 class="card-title catname">Jen</h4>
+                    <hr/>
+                    <p class="card-text"><strong>Age: </strong>unknown</p>
+                    <p class="card-text"><strong>Breed: </strong>unknown</p>
+                </div>
+            </div>
+        </div>
+
+        <!--SEARCH FILTER-->
+        <div class="container col-sm-12 col-md-9 col-lg-12 col-xl-3">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title text-center">Search Filter</h4>
+                    <div class="form">
+                        <form>
+                            <div class="form-group">
+                              <label for="breed">Breed</label>
+                              <input type="text" class="form-control" id="breed" placeholder="Breed">
+                            </div>
+                            <div class="form-group">
+                              <label for="gender">Gender: </label>
+                              <div class="custom-control custom-radio">
+                                <input type="radio" id="male" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="male">Male</label>
+                              </div>
+                              <div class="custom-control custom-radio">
+                                <input type="radio" id="female" name="customRadio" class="custom-control-input">
+                                <label class="custom-control-label" for="female">Female</label>
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label for="age">Age</label>
+                              <input type="number" class="form-control" id="age" placeholder="Age" min="0" max="15">
+                            </div>
+                            <div class="form-group">
+                              <label for="location">Location</label>
+                              <input type="text" class="form-control" id="location" placeholder="Location">
+                            </div>
+                            <div class="form-group">
+                              <label for="center">Center</label>
+                              <input type="text" class="form-control" id="center" placeholder="Center">
+                            </div>
+                            <button type="submit" class="btn btn-outline-primary">Search</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container mt-4 pb-3 d-flex flex-column flex-md-row justify-content-between text-light">
+      <div class="left_footer">
+          <p class="copyright text-center">Copyright &copy; 2021 | Petlook PH</p>
+        <div class="text-center">
+          <p class="mb-0"><strong>FOLLOW US!</strong></p>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="right_footer text-center-md">
+        <p class="footer_credits text-center"> <strong>Photo credits:</strong> </p>
+        <ul class="photo_credits">
+          <li>
+            <a href="https://www.freepik.com/ " target="_blank">www.freepik.com</a>
+            <a href="https://freeaddon.com/cats-and-dogs-wallpaper-hd-cat-vs-dog-themes-for-new-tab/" target="_blank">www.freeaddon.com</a>
+            <a href="https://www.petanos.com/Pictures/dogs-and-cats-together-pink-background-wallpaper-pets/" target="_blank">www.petanos.com</a>
+            <a href="https://www.vecteezy.com/" target="_blank">www.vecteezy.com</a>
+            <a href="https://www.pexels.com/" target="_blank">www.pexels.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!--ADDITIONAL JS SCRIPTS FOR BOOTSTRAP--> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

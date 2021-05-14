@@ -1,0 +1,265 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  padding-top: 80px;
+  background-color: #eee;
+  min-height: 100%;
+}
+
+header > .navbar {
+  background-color: #3a6263;
+  border-bottom: 1px white solid;
+}
+
+.nav-item a:hover {
+  background-color: #2c494a;
+}
+
+.logo {
+  width: 45px;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 100%;
+  height: 400px;
+  opacity: 0.5;
+  object-fit: cover;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #3a6263;
+}
+
+.about_us {
+  position: relative;
+  bottom: 50px;
+}
+
+.mission_vision {
+  padding: 50px 50px;
+  width: 60%;
+}
+
+.mission_image {
+  width: 40%;
+}
+
+.vision_image {
+  width: 40%;
+}
+
+.mission_pic {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.vision_pic {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.jumbotron {
+  background-color: #82dcdd;
+}
+
+.jumbotron a {
+  color: black;
+}
+
+.contact_img img {
+  width: 100%;
+  opacity: 0.7;
+}
+
+.card {
+  height: 100%;
+}
+
+.card .item {
+  width: 50%;
+}
+
+.copyright {
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #68afb0;
+  color: white;
+  border: 1px solid #eee;
+}
+
+.form {
+  margin-bottom: 15px;
+}
+
+footer {
+  background-color: #3a6263;
+  position: absolute;
+  bottom: auto;
+  left: 0;
+  right: 0;
+}
+
+footer a,
+.photo_credits a {
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover,
+.photo_credits a:hover {
+  color: #82dcdd;
+}
+
+.copyright {
+  font-weight: bold;
+}
+
+.footer_credits {
+  margin: 0;
+  color: rgb(125, 215, 221);
+}
+
+.photo_credits {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.photo_credits a {
+  text-decoration: none;
+  color: white;
+  margin: 15px;
+}
+
+@media only screen and (min-width: 319px) and (max-width: 767px) {
+  html {
+    font-size: 16px;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .banner-text {
+    text-align: center;
+  }
+
+  .jumbotron {
+    background-color: #5fa2a3;
+    font-size: 0.9rem;
+  }
+
+  .jumbotron h2 {
+    font-size: 2.5rem;
+  }
+
+  .mission_vision {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .mission_image {
+    width: 100%;
+  }
+
+  .vision_image {
+    width: 100%;
+  }
+
+  .card {
+    height: 100%;
+    font-size: 0.8rem;
+  }
+
+  footer {
+    text-align: center;
+    font-size: 0.8rem;
+    background-color: #3a6263;
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  html {
+    font-size: 16px;
+  }
+
+  .nav-item {
+    text-align: center;
+  }
+
+  .banner-text {
+    text-align: center;
+  }
+
+  .jumbotron {
+    background-color: #5fa2a3;
+    font-size: 0.9rem;
+  }
+
+  .jumbotron h2 {
+    font-size: 2.5rem;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .mission_vision {
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+  }
+
+  .mission_image {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .mission_pic {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .vision_image {
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .vision_pic {
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .card {
+    height: 100%;
+    font-size: 0.8rem;
+  }
+
+  footer {
+    font-size: 1rem;
+    background-color: #3a6263;
+    position: absolute;
+    bottom: auto;
+    left: 0;
+    right: 0;
+  }
+}

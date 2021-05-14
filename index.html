@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetLookPH</title>
+  <script src="https://kit.fontawesome.com/e27402d971.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href ="./css/index.css">
+</head>
+
+<body>
+  <!-- HEADER & NAVIGATION -->
+  <header> 
+    <div class="navbar navbar-expand-lg px-5 py-3 navbar-dark fixed-top">
+      <a href="./index.html" class="navbar-brand text-light ">
+        <img src="./img/logo.png" alt="Logo" class="logo"> PetLook PH
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-light" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" href="./html/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-light" href="./html/services.html">Services</a>
+              </li>
+          </ul>
+        </div>
+    </div>
+  </header>
+
+  <!--BANNER-->
+  <section>
+    <div id="banner_home">
+      <img src="./img/pets.jpg" alt="banner">
+      <div id="bannertxt_home">
+        <h2 class="display-1 mb-4">Ready to have a new bestfriend?</h2>
+        <a class="banner_btn" href="#adoptsec">See more</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTENT-INFO -->
+  <section>
+    <div class = "jumbotron rounded-0 m-0">
+      <div class="container">
+        <h2 class="content-intro text-center display-2 mb-4"> Pet directory and pet essential products at your fingertips</h2><br/>
+        <p class="text-justify">PetLook PH aims to support and promote the pet adoption programs and activities of various animal shelters across the country.</p><br/>
+        <p class="text-justify">PetLook PH is an online-access database of animals who need new homes and family. We also serves as a directory for nearly 35 animal shelters and adoption organizations/groups in the country.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ADOPT DOG/CAT SECTION -->
+  <section id="adoptsec">
+    <div class="container">
+      <h2 class="display-3 text-center mb-5">Start looking now!</h2>
+      <div class="card-deck col-lg-9 m-auto">
+        <div class="card">
+          <img class="card-img-top" src="./img/dogs.jpg" alt="Dogs section">
+          <div class="card-body">
+            <h5 class="card-title">Adopt a dog</h5>
+            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, odit? </p>
+            <a href="./html/adoptdog.html" class="btn">Go here</a>
+          </div>
+        </div>
+        <div class="card">
+          <img class="card-img-top" src="./img/cats.jpg" alt="Cats section">
+          <div class="card-body">
+            <h5 class="card-title">Adopt a cat</h5>
+            <p class="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, cum! </p>
+            <a href="./html/adoptacat.html" class="btn">Go here</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- FOOTER -->
+  <footer>
+    <div class="container mt-4 pb-3 d-flex flex-column flex-md-row justify-content-between text-light">
+      <div class="left_footer">
+        <p class="copyright text-center">Copyright &copy; 2021 | Petlook PH</p>
+      <div class="text-center">
+        <p class="mb-0"><strong>FOLLOW US!</strong></p>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+      </div>
+      </div>
+      <div class="right_footer text-center-md">
+        <p class="footer_credits text-center"> <strong>Photo credits:</strong> </p>
+        <ul class="photo_credits ">
+          <li>
+            <a href="https://www.freepik.com/ " target="_blank">www.freepik.com</a>
+            <a href="https://freeaddon.com/cats-and-dogs-wallpaper-hd-cat-vs-dog-themes-for-new-tab/" target="_blank">www.freeaddon.com</a>
+            <a href="https://www.petanos.com/Pictures/dogs-and-cats-together-pink-background-wallpaper-pets/" target="_blank">www.petanos.com</a>
+            <a href="https://www.vecteezy.com/" target="_blank">www.vecteezy.com</a>
+            <a href="https://www.pexels.com/" target="_blank">www.pexels.com</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!--ADDITIONAL JS SCRIPTS FOR BOOTSTRAP-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
